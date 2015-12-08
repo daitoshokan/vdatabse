@@ -68,7 +68,7 @@ $domains = array("@gmail.com", "@yahoo.com", "@sbcglobal.net", "@windows.me", "@
 $cities = array("Santa cruz", "San Francisco", "San jose", "Berkeley", "Sacramento", "Eureka", "San Diego", "Los Angeles");
 
 mysqli_query($connection,
-"CREATE TABLE users( id INTEGER(9) PRIMARY KEY AUTOINCREMENT, full_name VARCHAR(255), email VARCHAR(255), city VARCHAR(255) );");
+"CREATE TABLE users( id INTEGER(9) PRIMARY KEY AUTOINCREMENT, full_name VARCHAR(255), email VARCHAR(255), city VARCHAR(255) )");
 
 
 
