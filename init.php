@@ -63,9 +63,9 @@ $firstnames = array("Jackson",
 "Julian",
 "John");
 
-$lastnames = array("Smith", "Tellman", "davidson", "ericson", "Johnson", "Gonzalez", "Hernandez", "Swift");
+$lastnames = array("Smith", "Tellman", "Davidson", "Ericson", "Johnson", "Gonzalez", "Hernandez", "Swift", "Rogers");
 $domains = array("@gmail.com", "@yahoo.com", "@sbcglobal.net", "@windows.me", "@hotmail.com");
-$cities = array("Santa cruz", "San Francisco", "San jose", "Berkeley", "Sacramento", "Eureka", "San Diego", "Los Angeles");
+$cities = array("Santa Cruz", "San Francisco", "San jose", "Berkeley", "Sacramento", "Eureka", "San Diego", "Los Angeles");
 
 mysqli_query($connection,
 "CREATE TABLE users( id INTEGER PRIMARY KEY AUTOINCREMENT, full_name VARCHAR(255), email VARCHAR(255), city VARCHAR(255) )");
