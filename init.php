@@ -72,7 +72,7 @@ mysqli_query($connection,
 
 
 
-for($i=1;i<10000000;$i++)
+for($i=0;i<10000000;$i++)
 {
     $fname = $firstnames[array_rand($firstnames)];
     $lname = $lastnames[array_rand($lastnames)];
